@@ -1,5 +1,10 @@
 [
   {
+    "Command": "Select a Command",
+    "Explanation": "",
+    "Example": ""
+  },
+  {
     "Command": "login",
     "Explanation": "Login to EPM Instance using your user name and password. You can also login using your user name and encyrpted password file.",
     "Example": "epmautomate login USERNAME PASSWORD URL"
