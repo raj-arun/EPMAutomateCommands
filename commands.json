@@ -8,7 +8,7 @@
   {
     "Command": "login",
     "Explanation": "Login to EPM Instance using your user name and password. You can also login using your user name and encyrpted password file.",
-    "Examples": ["epmautomate login USERNAME PASSWORD URL","epmautomate login USERNAME PASSWORD_FILE URL"],
+    "Examples": ["Using unencrypted password: epmautomate login USERNAME PASSWORD URL","Using encrypted file: epmautomate login USERNAME PASSWORD_FILE URL"],
     "Documentation": "https://docs.oracle.com/en/cloud/saas/enterprise-performance-management-common/cepma/epm_auto_login.html"
   },
   {
