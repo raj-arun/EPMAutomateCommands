@@ -1,27 +1,27 @@
 [
   {
     "Command": "Select a Command",
-    "Explanation": "",
-    "Example": ""
+    "Explanation": "This section provides you a brief explanation of the command.",
+    "Example": ["This is where you can see the Examples"]
   },
   {
     "Command": "login",
     "Explanation": "Login to EPM Instance using your user name and password. You can also login using your user name and encyrpted password file.",
-    "Example": "epmautomate login USERNAME PASSWORD URL"
+    "Example": ["epmautomate login USERNAME PASSWORD URL","epmautomate login USERNAME PASSWORD_FILE URL]
   },
   {
     "Command": "logout",
     "Explanation": "Logout of EPM Instance",
-    "Example": "epmautomate logout"
+    "Example": ["epmautomate logout"]
   },
   {
     "Command": "listFiles",
     "Explanation": "Lists the names of the files in the default location, Data Management folders, and profitinbox/profitoutbox (Profitability and Cost Management).",
-    "Example": "epmautomate listFiles"
+    "Example": ["epmautomate listFiles"]
   },
   {
     "Command": "refreshCube",
     "Explanation": "Refreshes the application cube",
-    "Example": "epmautomate refreshCube [JOB_NAME]"
+    "Example": ["epmautomate refreshCube [JOB_NAME]"]
   }
 ]
