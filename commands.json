@@ -2,26 +2,31 @@
   {
     "Command": "Select a Command",
     "Explanation": "This section provides you a brief explanation of the command.",
-    "Example": ["This is where you can see the Examples"]
+    "Examples": ["This is where you can see the Examples"],
+    "Documentation": ""
   },
   {
     "Command": "login",
     "Explanation": "Login to EPM Instance using your user name and password. You can also login using your user name and encyrpted password file.",
-    "Example": ["epmautomate login USERNAME PASSWORD URL","epmautomate login USERNAME PASSWORD_FILE URL"]
+    "Examples": ["epmautomate login USERNAME PASSWORD URL","epmautomate login USERNAME PASSWORD_FILE URL"],
+    "Documentation": "https://docs.oracle.com/en/cloud/saas/enterprise-performance-management-common/cepma/epm_auto_login.html"
   },
   {
     "Command": "logout",
     "Explanation": "Logout of EPM Instance",
-    "Example": ["epmautomate logout"]
+    "Examples": ["epmautomate logout"],
+    "Documentation": "https://docs.oracle.com/en/cloud/saas/enterprise-performance-management-common/cepma/epm_auto_logout.html"
   },
   {
     "Command": "listFiles",
     "Explanation": "Lists the names of the files in the default location, Data Management folders, and profitinbox/profitoutbox (Profitability and Cost Management).",
-    "Example": ["epmautomate listFiles"]
+    "Examples": ["epmautomate listFiles"],
+    "Documentation": "https://docs.oracle.com/en/cloud/saas/enterprise-performance-management-common/cepma/epm_auto_list_files.html"
   },
   {
     "Command": "refreshCube",
     "Explanation": "Refreshes the application cube",
-    "Example": ["epmautomate refreshCube [JOB_NAME]"]
+    "Examples": ["epmautomate refreshCube [JOB_NAME]"],
+    "Documentation": "https://docs.oracle.com/en/cloud/saas/enterprise-performance-management-common/cepma/epm_auto_refresh_cube.html"
   }
 ]
