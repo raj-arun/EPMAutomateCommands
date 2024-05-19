@@ -6,6 +6,18 @@
     "Documentation": ""
   },
   {
+    "Command": "addUsers",
+    "Explanation": "Creates a batch of users in an identity domain using an ANSI or UTF-8 encoded Comma Separated Value (CSV) file that was uploaded to the environment. Also informs new users of their user name and temporary password.",
+    "Examples": ["epmautomate addUsers FILE_NAME [userPassword=PASSWORD] [resetPassword=true|false]"],
+    "Documentation": "https://docs.oracle.com/en/cloud/saas/enterprise-performance-management-common/cepma/epm_auto_add_users.html"
+  },
+  {
+    "Command": "addUsersToGroup",
+    "Explanation": "Adds a batch of users to an existing group in Access Control using an ANSI or UTF-8 encoded CSV file that was uploaded to the environment.",
+    "Examples": ["epmautomate addUsersToGroup FILE_NAME GROUP_NAME"],
+    "Documentation": "https://docs.oracle.com/en/cloud/saas/enterprise-performance-management-common/cepma/epm_auto_add_users_to_group.html"
+  },  
+  {
     "Command": "login",
     "Explanation": "Login to EPM Instance using your user name and password. You can also login using your user name and encyrpted password file.",
     "Examples": ["Using unencrypted password: epmautomate login USERNAME PASSWORD URL","Using encrypted file: epmautomate login USERNAME PASSWORD_FILE URL"],
